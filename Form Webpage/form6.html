@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Patua+One&display=swap"
+        rel="stylesheet">
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Fraunces", serif;
+    }
+
+    section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(237, 237, 237);
+        
+    }
+
+    .whitebox {
+        height: 460px;
+        width: 500px;
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        text-align: center;
+
+    }
+
+    input {
+        border: none;
+        width: 100%;
+        background-color: rgb(237, 237, 237);
+    }
+
+    .email_phone {
+        display: flex;
+    }
+
+    select {
+        border: none;
+        width: 100%;
+        background-color: rgb(237, 237, 237);
+    }
+
+    textarea {
+        border: none;
+        width: 96%;
+        height: 80px;
+        background-color: white;
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+     
+
+
+    .inputbox {
+        background-color: rgb(237, 237, 237);
+        margin: 7px 0 7px 0;
+        padding: 10px;
+        border-radius: 7px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+
+    h2 {
+        margin: 0 0 25px 0;
+    }
+
+    button {
+        margin: 13px 0;
+        width: 100%;
+        padding: 6px;
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        font-size: 9px;
+        border: none;
+    }
+
+    .whitebox .inputbox:nth-child(5) {
+        background-color: white;
+        border: 1px solid rgb(237, 237, 237);
+    }
+</style>
+
+<body>
+    <section>
+        <div class="whitebox">
+            <h2>Contact Us</h2>
+            <div class="inputbox">
+                <label for="">FULL NAME *</label><br>
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+
+            <div class="email_phone">
+                <div class="inputbox" style="width: 100%;">
+                    <label for="">EMAIL *</label><br>
+                    <input type="text" placeholder="Enter Your Email">
+                </div>
+
+                <div class="inputbox" style="margin-left: 15px; width: 100%;">
+                    <label for="">PHONE *</label><br>
+                    <input type="number" placeholder="Enter Number Phone">
+                </div>
+            </div>
+
+            <div class="inputbox" style="margin-bottom: 13px;">
+                <label for="">NEEDED SERVICES *</label><br>
+                <select>
+                    <option selected>Please chooses</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+            <div class="inputbox">
+                <label for="">MESSAGE</label><br>
+                <textarea placeholder="Your message here..."></textarea>
+            </div>
+
+            <button>Submit</button>
+        </div>
+    </section>
+</body>
+
+</html>

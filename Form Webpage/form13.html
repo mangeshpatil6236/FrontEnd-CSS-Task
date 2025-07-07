@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 239, 220);
+        /* background-image: url(https://media.istockphoto.com/id/690551082/vector/empty-classroom-interior-with-blackboard.jpg?s=612x612&w=0&k=20&c=2fQH2yNfuQHnq8nwiulLKZDGJLw0YxoQ0LT5KMNBHo8=); */
+        background-repeat: none;
+        background-size: 100% 100%;
+
+
+    }
+
+    .box {
+        height: 400px;
+        width: 300px;
+        background-color: white;
+        border-radius: 15px;
+
+
+    }
+
+    .content {
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    input {
+        width: 93%;
+        margin: 10px 0;
+        padding: 8px;
+        font-size: 10px;
+        border: 1px solid rgb(212, 212, 212);
+    }
+
+    button {
+        width: 100%;
+        padding: 4px;
+        margin: 15px 0;
+        background-color: rgb(255, 194, 119);
+        border: none;
+        border-radius: 4px;
+        font-size: 11px;
+    }
+
+    .signin {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 13px;
+        margin: 15px 0;
+    }
+
+    .apk {
+        border: 1px solid rgb(222, 222, 222);
+        padding: 5px 6px;
+        border-radius: 3px;
+    }
+
+    .request {
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+</style>
+
+<body>
+    <section>
+        <div class="box">
+            <div class="content">
+                <h2>Agent Login</h2>
+                <p style="padding: 10px 0; font-size: 13px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, itaque.</p>
+                <input type="text" placeholder="Enter Email/Phone No">
+                <input type="password" placeholder="Password">
+                <h6 style="text-align: left;">Having trouble in sign in?</h6>
+                <button>Sign in</button>
+                <p style="font-size: 12px; margin: 5px 0;">-- Or Sign in with</p>
+
+                <div class="signin">
+                    <div class="apk">
+                        <i class="fab fa-google"></i>
+                        <label for="">Google</label>
+                    </div>
+                    <div class="apk">
+                        <i class="fab fa-apple"></i>
+                        <label for="">Apple ID</label>
+                    </div>
+                    <div class="apk">
+                        <i class="fab fa-facebook-f"></i>
+                        <label for="">Facebook</label>
+                    </div>
+                </div>
+
+                <div class="request">
+                    <p>Don't have an account? </p>
+                    <b>Request Now</b>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

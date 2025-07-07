@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        height: 100vh;
+        background-image: linear-gradient(to top right, rgb(42, 195, 255), purple, rgb(255, 168, 182));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whitebox {
+        background-color: white;
+        width: 300px;
+        padding: 25px;
+
+    }
+
+    input {
+        padding: 5px;
+        width: 94%;
+        margin: 0 0 18px 0;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+
+    textarea {
+        width: 98%;
+        height: 70px;
+        border: none;
+        border-bottom: 1px solid gray;
+
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    button {
+        background-image: linear-gradient(to top right, rgb(42, 195, 255), rgb(255, 75, 255), rgb(255, 168, 182));
+        width: 85%;
+        padding: 5px;
+        margin: 25px 20px 10px 20px;
+        border: none;
+        border-radius: 13px;
+    }
+</style>
+
+<body>
+    <section>
+
+        <div class="whitebox">
+            <div class="formbox">
+                <h2>Say Hello!</h2>
+
+                <div class="inputbox">
+                    <label for="">Your Name</label>
+                    <input type="text" value="Mangesh Patil">
+                </div>
+
+                <div class="inputbox">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Enter your email address">
+                </div>
+
+                <div class="inputbox">
+                    <label for="">Needed Services</label>
+                    <input type="text" placeholder="Online Store">
+                </div>
+                <div class="inputbox">
+                    <label for="">Budget</label>
+                    <input type="text" placeholder="Select Budget">
+                </div>
+
+                <div class="inputbox">
+                    <label for="">Message</label>
+                    <textarea name="" placeholder="Your message here"></textarea>
+                </div>
+
+                <button>Submit</button>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

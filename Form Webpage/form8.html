@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 182, 104);
+    }
+
+    .whitebox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+        margin-top: 90px;
+    }
+
+    .box1 {
+        height: 400px;
+        padding: 20px;
+        
+    }
+
+    .box2 {
+        height: 400px;
+        width: 350px;
+        padding: 30px;
+        
+    }
+
+    input {
+        width: 95%;
+        padding: 8px 8px 8px 25px;
+        margin: 15px 0;
+        border: none;
+        background-color: rgb(241, 241, 241);
+        border-radius: 15px;
+    }
+
+    .signup {
+        display: flex;
+    }
+
+    li {
+        list-style: circle;
+        color: orange;
+        font-size: 20px;
+       
+
+    }
+
+    h2 {
+        color: rgb(255, 156, 49);
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    button {
+        border: none;
+        background-color: rgb(255, 161, 61);
+        color: white;
+        padding: 8px 10px;
+        border-radius: 15px;
+    }
+
+    .signup{
+        gap: 40px;
+        margin: 30px 0 0 25px;
+    }
+
+    p{
+        margin-top: 5px;
+    }
+
+    a{
+        color:rgb(255, 161, 61) ;
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <section>
+        <div class="whitebox">
+            <div class="box1">
+                <img src="https://static.vecteezy.com/system/resources/previews/025/410/358/non_2x/digital-identity-verification-illustration-concept-with-characters-identity-authentication-secure-verification-process-trusted-identities-modern-flat-style-for-landing-page-infographic-vector.jpg"
+                    alt="">
+            </div>
+            <div class="box2">
+                <h2>Sign Up</h2>
+                <ul>
+                    <li><input type="text" placeholder="Username"><br></li>
+                    <li><input type="email" placeholder="Email"><br></li>
+                    <li><input type="password" placeholder="Password"><br></li>
+                    <li><input type="password" placeholder="Confirm Password"><br></li>
+                </ul>
+
+
+
+                <div class="signup">
+                    <button>SIGN UP</button>
+                    <p>Already hav an account? <a href="">Login</a></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

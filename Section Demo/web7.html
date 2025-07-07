@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        width: 300px;
+        text-align: center;
+        padding: 30px;
+        box-shadow: 1px 5px 10px gray;
+        margin: 15px;
+    }
+
+    h3 {
+        padding: 10px 0;
+    }
+
+    button {
+        margin: 15px 0;
+        padding: 8px 10px;
+        background-color: white;
+    }
+
+    section .box:nth-child(1) {
+        background: linear-gradient(90deg, #ff506d 50%, rgb(255, 35, 72) 50%);
+        color: white;
+    }
+
+    .box1 {
+        margin-left: 115px;
+        width: 50px;
+
+        border-radius: 95px;
+        padding: 10px;
+        height: 45px;
+    }
+
+    h1 {
+        padding-top: 2px;
+        color: white;
+    }
+
+    .box:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+    }
+ 
+    /* .box:hover::after button:hover{
+        background-color: rgb(255, 238, 207);
+    } */
+
+</style>
+
+<body>
+    <section>
+        <div class="box">
+            <div class="box1">
+                <h1>01</h1>
+            </div>
+            <h3>Service Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quos aperiam repudiandae alias
+                voluptatum corporis excepturi! Aperiam, blanditiis natus!</p>
+            <button>Read More</button>
+        </div>
+        <div class="box">
+            <div class="box1" style="background:linear-gradient(90deg,  rgb(11, 255, 64) 50%,  rgb(0, 223, 48) 50%)">
+                <h1>02</h1>
+            </div>
+            <h3>Service Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quos aperiam repudiandae alias
+                voluptatum corporis excepturi! Aperiam, blanditiis natus!</p>
+            <button>Read More</button>
+        </div>
+        <div class="box">
+            <div class="box1" style=" background:linear-gradient(90deg, rgb(116, 215, 255) 50%, rgb(29, 191, 255) 50%)">
+                <h1>03</h1>
+            </div>
+            <h3>Service Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quos aperiam repudiandae alias
+                voluptatum corporis excepturi! Aperiam, blanditiis natus!</p>
+            <button>Read More</button>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(241, 241, 241);
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+        border: 1px solid white;
+        border-radius: 90px;
+        background-color: white;
+        margin-top: 60px;
+    }
+
+    .box1 {
+        height: 449px;
+        width: 250px;
+        background-color: #ff2146;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        box-shadow: 0px 0px 5px gray;
+    }
+
+    h4 {
+        padding: 8px 0;
+        color: black;
+        font-weight: 300;
+    }
+
+    .box1 p {
+        font-size: 13px;
+    }
+
+    .box2 {
+        height: 478px;
+        width: 500px;
+        background-color: #ff2146;
+        box-shadow: 0px 0px 5px gray;
+    }
+
+    .content {
+        height: 350px;
+        background-color: white;
+        padding: 60px;
+        margin-top: 8px;
+    }
+
+    .check {
+        margin: 10px 5px;
+        border: 1px solid rgb(201, 201, 201);
+        padding: 4px;
+        width: 200px;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .box2 .content p {
+
+        padding: 15px 0;
+    }
+
+    button {
+        padding: 5px 15px;
+        border: none;
+        background-color: #ff2146;
+        margin: 20px 0;
+        color: white;
+        box-shadow: 0px 0px 5px gray;
+    }
+</style>
+
+<body>
+    <section>
+        <div class="box1">
+            <img src="https://png.pngtree.com/png-clipart/20250423/original/pngtree-3d-cartoon-coronavirus-character-with-shocked-expression-png-image_20860651.png"
+                alt="">
+            <h1>COVID-19</h1>
+            <h4>Self checker form</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio distinctio ea in, fugiat minus amet vero
+                laboriosam cum dolore, eos quos hic numquam recusandae voluptatibus?</p>
+        </div>
+
+        <div class="box2">
+            <div class="content">
+                <p>Have you travelled to any of these countries with highest number of COVID-19 cases in the world for
+                    the post 2 weeks</p>
+
+
+                <div class="flex">
+                    <div class="check">
+                        <input type="radio" id="uk" name="country" />
+                        <label for=" uk">UK</label><br />
+                    </div>
+
+                    <div class="check">
+                        <input type="radio" id="germany" name="country" />
+                        <label for=" germany">Germany</label><br />
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="check">
+                        <input type="radio" id="us" name="country" />
+                        <label for=" us">US</label><br />
+                    </div>
+
+                    <div class="check">
+                        <input type="radio" id="india" name="country" />
+                        <label for=" india">India</label><br />
+                    </div>
+                </div>
+
+
+                <div class="flex">
+                    <div class="check">
+                        <input type="radio" id="brazil" name="country" />
+                        <label for=" brazil">Brazil</label><br />
+                    </div>
+
+                    <div class="check">
+                        <input type="radio" id="europe" name="country" />
+                        <label for="europe">Europe</label><br />
+                    </div>
+                </div>
+
+
+                <div class="check" style="width: 362px;">
+                    <input type="radio" id="none" name="country" />
+                    <label for="none">I didi not travel any of these countries</label><br />
+                </div>
+
+                <div class="buttons"></div>
+                <button>Previous</button>
+                <button>Next</button>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
